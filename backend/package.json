@@ -1,0 +1,47 @@
+{
+  "name": "VetrenMeet",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "SET NODE_ENV=production & nodemon server.js",
+    "debug": "ndb server.js",
+    "watch:js": "parcel watch ./public/js/index.js --dist-dir ./public/js",
+    "build:js": "parcel build ./public/js/index.js --dist-dir ./public/js",
+    "dev:js": "parcel ./public/js/index.js"
+  },
+  "author": "Fasih ur Rehman, Muhammad Uzair Baig, Muzamil Ahmad, Muhammad Saeed",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "core-js": "^3.26.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^5.5.1",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "regenerator-runtime": "^0.13.11",
+    "sharp": "^0.31.2",
+    "slugify": "^1.6.5",
+    "twilio": "^3.83.4",
+    "validator": "^13.7.0",
+    "xss-clean": "^0.1.1",
+    "xss-filters": "^1.2.7"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.5"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
